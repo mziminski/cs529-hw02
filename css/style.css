@@ -1,0 +1,154 @@
+html {
+    background-color: #011E62;
+}
+
+body {
+    margin: auto;
+    height:auto;
+    width: 900px;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* top | right | bottom | left */
+    padding-left: 10px; 
+    font-family: "Arial", sans-serif;
+    font-style: bold;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: medium;
+}
+
+a {
+    width:auto;
+    height:auto;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+/* navigation bar */
+#container-top {
+    width: 100%;
+    height: 70px;
+}
+
+#container-middle {
+    /* background-color: cyan; */
+    height:800px;
+}
+
+#continer-footer {
+    height:50px;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 100%;
+}
+
+#uic-brand-link {
+    text-decoration: none;
+}
+
+#uic-brand-mark {
+    padding: 5px 0px 0px 5px;
+    width:auto;
+    height: 60px;
+}
+
+.nav-item {
+    color:#011E62;
+     /* top | right | bottom | left */
+     padding: 0px 10px 0px 10px;
+     font-size: large;
+     width:100%;
+}
+
+#uic-svg {
+    width: 50px;
+    height: 50px;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+}
+
+
+.container {
+    /* background-color: red; */
+    height:100%
+}
+
+.container-left {
+    /* background-color: green; */
+    float:left;
+    width:50%;
+    height:100%;
+    box-sizing: border-box
+}
+
+.container-right {
+    /* background-color: blue; */
+    float: right;
+    width:50%;
+    height:100%;
+    box-sizing: border-box
+}
+
+.profile-img {
+    width:100%;
+}
+
+.image {
+    width:95%;
+    border: 5px solid #D50032;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#svg-example {
+    width: 900px;
+    height: 700px;
+    background-color: grey;
+}
+
+circle {
+    fill:white;
+}
+
+#c1 {
+    fill: #FFFFFF;
+}
+
+#r1 {
+    fill: #D50032;
+}
+
+#e1 {
+ fill:#011E62;
+}
+
+.btn {
+    margin: 0px 0px 0px 20px
+}
+
+  
+.tooltipInfo {
+    color: white;
+}
+
+path {
+    stroke-width: 1px;
+  stroke: white;
+}
